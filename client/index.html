@@ -10,7 +10,26 @@
 </head>
 
 <body>
+  <template id="UserForm" type="template">
+    <div>
+      UserForm {{ user.id }} <br />
+      <a href="#">List</a>
+    </div>
+  </template>
+  <template id="UsersList">
+    <div>
+      UsersList <a href="#user=5">User #5</a>
+    </div>
+  </template>
+  <div id="root">
+    {{users}}
+    <users-list v-if="showUsersList" v-bind:list="users"></users-list>
+    <user-form v-else-if="showUserForm" v-bind:user="user"></user-form>
+  </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+  <script src="./js/UsersList.js"></script>
+  <script src="./js/UserForm.js"></script>
   <script src="./js/app.js"></script>
 </body>
 
