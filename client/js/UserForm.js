@@ -13,25 +13,16 @@ window.UserForm = {
       if (!this.user) {
         return {};
       }
-      return JSON.parse(JSON.stringify(this.user));
+      return Object.assign({}, this.user);
     },
   },
 
   methods: {
-    goToList: function() {
-      window.location.hash = '#';
+    saveUser: function() {
+      this.$emit('save-user', this.userData);
     },
-    onSubmit: function() {
-      axios
-        .put(`${API_URL}/users/${this.user.id}`, this.userData)
-        .then(response => {
-          this.$emit('user-updated', response.data);
-          this.goToList();
-        })
-        .catch(console.error);
-    },
-    onReset: function() {
-      this.goToList();
+    closeForm: function() {
+      this.$emit('close-form');
     },
   },
 };

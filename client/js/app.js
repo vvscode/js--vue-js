@@ -42,7 +42,22 @@ window.app = new Vue({
     updateUser: function(userData) {
       const userIndex = this.users.findIndex(el => el.id === userData.id);
       const user = this.users[userIndex];
-      this.$set(this.users, userIndex, Object.assign({}, user, userData));
+
+      axios
+        .put(`${API_URL}/users/${this.user.id}`, userData)
+        .then(response => {
+          this.$set(
+            this.users,
+            userIndex,
+            Object.assign({}, user, response.data),
+          );
+          this.closeForm();
+        })
+        .catch(console.error);
+    },
+
+    closeForm: function() {
+      window.location.href = '#';
     },
   },
 
