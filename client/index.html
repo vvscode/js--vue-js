@@ -56,11 +56,14 @@
           </tr>
         </tbody>
       </table>
+      <div v-else>
+        Empty or loading list...
+      </div>
     </div>
   </template>
   <div id="root">
-    <users-list v-if="showUsersList" v-bind:users="users"></users-list>
-    <user-form v-else-if="showUserForm" v-bind:user="user" v-on:save-user="updateUser" v-on:close-form="closeForm"></user-form>
+    <users-list v-if="showUsersList" v-bind:users="users" />
+    <user-form v-else-if="showUserForm" v-bind:user="user" v-on:save-user="updateUser" v-on:close-form="closeForm" />
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
