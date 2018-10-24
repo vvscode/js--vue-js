@@ -12,8 +12,19 @@
 <body>
   <template id="UserForm" type="template">
     <div>
-      UserForm {{ user.id }} <br />
-      <a href="#">List</a>
+      <h2>User Form #{{ userData.id }} </h2>
+      <a href="#">Back to List</a>
+      <form v-on:submit.prevent="onSubmit">
+        <div><label>First Name: <input v-model.trim="userData.firstName" /></label></div>
+        <div><label>Email: <input v-model.trim="userData.email" /></label></div>
+        <div><label>Last Name: <input v-model.trim="userData.lastName" /></label></div>
+        <div><label>Company: <input v-model.trim="userData.company" /></label></div>
+        <div>
+          <button type="button" v-on:click="onReset">Reset</button>
+          <button type="submit">Save</button>
+        </div>
+    </div>
+    </form>
     </div>
   </template>
   <template id="UsersList">
@@ -24,6 +35,8 @@
           <tr>
             <th>ID</th>
             <th>Avatar</th>
+            <th>First Name</th>
+            <th>Last Name</th>
             <th>Access Level</th>
             <th></th>
           </tr>
@@ -32,6 +45,8 @@
           <tr v-for="user in users">
             <td>{{user.id}}</td>
             <td><img v-bind:src="user.picture" /></td>
+            <td>{{user.firstName}}</td>
+            <td>{{user.lastName}}</td>
             <td>{{user.accessLevel}}</td>
             <td><a class="button" v-bind:href="userLink(user)">Edit</a></td>
           </tr>
@@ -41,7 +56,7 @@
   </template>
   <div id="root">
     <users-list v-if="showUsersList" v-bind:users="users"></users-list>
-    <user-form v-else-if="showUserForm" v-bind:user="user"></user-form>
+    <user-form v-else-if="showUserForm" v-bind:user="user" v-on:user-updated="updateUser"></user-form>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>

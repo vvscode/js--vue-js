@@ -1,4 +1,4 @@
-var API_URL = 'https://vue-course-json-server-pqhuiiuqja.now.sh';
+var API_URL = 'https://vue-course-json-server-nirvyctvmd.now.sh';
 window.app = new Vue({
   el: '#root',
 
@@ -9,7 +9,7 @@ window.app = new Vue({
 
   data: function() {
     return {
-      user: null,
+      userId: null,
       currentRoute: '',
       users: [],
     };
@@ -36,12 +36,20 @@ window.app = new Vue({
         this.currentRoute = 'list';
       } else {
         this.currentRoute = 'form';
-        this.user = { id: +match.pop() };
+        this.userId = +match.pop();
       }
+    },
+    updateUser: function(userData) {
+      const userIndex = this.users.findIndex(el => el.id === userData.id);
+      const user = this.users[userIndex];
+      this.$set(this.users, userIndex, Object.assign({}, user, userData));
     },
   },
 
   computed: {
+    user: function() {
+      return this.users.find(el => el.id === this.userId);
+    },
     showUserForm: function() {
       return this.currentRoute === 'form';
     },
