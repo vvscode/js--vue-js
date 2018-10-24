@@ -3,9 +3,15 @@ window.UsersList = {
   template: '#UsersList',
 
   props: {
-    list: {
+    users: {
       type: Array,
       required: true,
+    },
+  },
+
+  methods: {
+    userLink(user) {
+      return '#user=' + user.id;
     },
   },
 };

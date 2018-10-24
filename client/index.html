@@ -18,12 +18,29 @@
   </template>
   <template id="UsersList">
     <div>
-      UsersList <a href="#user=5">User #5</a>
+      <h2>Users List</h2>
+      <table v-if="users.length">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Avatar</th>
+            <th>Access Level</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="user in users">
+            <td>{{user.id}}</td>
+            <td><img v-bind:src="user.picture" /></td>
+            <td>{{user.accessLevel}}</td>
+            <td><a class="button" v-bind:href="userLink(user)">Edit</a></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </template>
   <div id="root">
-    {{users}}
-    <users-list v-if="showUsersList" v-bind:list="users"></users-list>
+    <users-list v-if="showUsersList" v-bind:users="users"></users-list>
     <user-form v-else-if="showUserForm" v-bind:user="user"></user-form>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script>

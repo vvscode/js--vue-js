@@ -1,3 +1,4 @@
+var API_URL = 'https://vue-course-json-server-pqhuiiuqja.now.sh';
 window.app = new Vue({
   el: '#root',
 
@@ -20,9 +21,15 @@ window.app = new Vue({
       this.recalculateCurrentRoute.bind(this),
     );
     this.recalculateCurrentRoute();
+    this.loadUsers();
   },
 
   methods: {
+    loadUsers: function() {
+      axios
+        .get(API_URL + '/users')
+        .then(response => (this.users = response.data));
+    },
     recalculateCurrentRoute: function() {
       var match = window.location.hash.match(/user=(\d+)/);
       if (!match) {
