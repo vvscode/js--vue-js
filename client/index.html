@@ -18,7 +18,7 @@
         <div class="fieldt"><label>First Name: <input v-model.trim="userData.firstName" /></label></div>
         <div class="field"><label>Last Name: <input v-model.trim="userData.lastName" /></label></div>
         <div class="field"><label>Company: <input v-model.trim="userData.company" /></label></div>
-        <div class="field"><label>Email: <input v-model.trim="userData.email" /></label></div>
+        <div class="field"><label>Email: <input v-model.trim="userData.email" type="email" /></label></div>
         <div class="field">
           <button type="button" v-on:click="closeForm" class="ui basic button">Reset</button>
           <button type="submit" class="ui basic button primary">Save</button>

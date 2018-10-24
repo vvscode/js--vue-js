@@ -5,14 +5,12 @@ window.UserForm = {
   props: {
     user: {
       type: Object,
+      default: Object,
     },
   },
 
   computed: {
     userData: function() {
-      if (!this.user) {
-        return {};
-      }
       return Object.assign({}, this.user);
     },
   },
