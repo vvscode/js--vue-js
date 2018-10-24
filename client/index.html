@@ -11,17 +11,17 @@
 
 <body>
   <template id="UserForm" type="template">
-    <div>
-      <h2>User Form #{{ userData.id }} </h2>
+    <div class="ui container">
+      <h2 class="ui center aligned header">User Form #{{ userData.id }} </h2>
       <a href="#">Back to List</a>
-      <form v-on:submit.prevent="onSubmit">
-        <div><label>First Name: <input v-model.trim="userData.firstName" /></label></div>
-        <div><label>Email: <input v-model.trim="userData.email" /></label></div>
-        <div><label>Last Name: <input v-model.trim="userData.lastName" /></label></div>
-        <div><label>Company: <input v-model.trim="userData.company" /></label></div>
-        <div>
-          <button type="button" v-on:click="onReset">Reset</button>
-          <button type="submit">Save</button>
+      <form v-on:submit.prevent="onSubmit" class="ui form">
+        <div class="fieldt"><label>First Name: <input v-model.trim="userData.firstName" /></label></div>
+        <div class="field"><label>Last Name: <input v-model.trim="userData.lastName" /></label></div>
+        <div class="field"><label>Company: <input v-model.trim="userData.company" /></label></div>
+        <div class="field"><label>Email: <input v-model.trim="userData.email" /></label></div>
+        <div class="field">
+          <button type="button" v-on:click="onReset" class="ui basic button">Reset</button>
+          <button type="submit" class="ui basic button primary">Save</button>
         </div>
     </div>
     </form>
@@ -29,8 +29,8 @@
   </template>
   <template id="UsersList">
     <div>
-      <h2>Users List</h2>
-      <table v-if="users.length">
+      <h2 class="ui center aligned header">Users List</h2>
+      <table v-if="users.length" class="ui celled table">
         <thead>
           <tr>
             <th>ID</th>
@@ -48,7 +48,11 @@
             <td>{{user.firstName}}</td>
             <td>{{user.lastName}}</td>
             <td>{{user.accessLevel}}</td>
-            <td><a class="button" v-bind:href="userLink(user)">Edit</a></td>
+            <td>
+              <a class="ui button" v-bind:href="userLink(user)">
+                <i class="icon edit"></i>
+                Edit</a>
+            </td>
           </tr>
         </tbody>
       </table>
