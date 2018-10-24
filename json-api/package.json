@@ -1,0 +1,9 @@
+{
+  "name": "vue-course-json-server",
+  "scripts": {
+    "start": "json-server --no-cors --watch db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.14.0"
+  }
+}
