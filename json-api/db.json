@@ -1,324 +1,180 @@
 {
   "users": [
     {
-      "_id": "5bd01181b50034ff8326d5dd",
-      "index": 0,
-      "guid": "85e290aa-eac3-44ab-bbc5-490f2b0a975b",
+      "id": 0,
       "isActive": true,
-      "balance": "$3,486.67",
-      "picture": "http://placehold.it/32x32",
-      "age": 32,
-      "eyeColor": "blue",
-      "name": {
-        "first": "Serrano",
-        "last": "Rice"
-      },
-      "company": "SOPRANO",
-      "email": "serrano.rice@soprano.me",
-      "phone": "+1 (800) 578-2789",
-      "address": "310 Grace Court, Marienthal, New Jersey, 3957",
-      "about": "Veniam ad nostrud est et. Officia labore pariatur officia irure adipisicing irure officia nulla id. Cillum ipsum elit laborum quis magna ullamco do dolore adipisicing eu aliqua. Id magna enim cupidatat elit dolor. Laboris duis ea nulla cillum enim esse.",
-      "registered": "Saturday, October 13, 2018 4:12 PM",
-      "latitude": "7.704057",
-      "longitude": "-63.112432",
-      "tags": ["id", "proident", "exercitation", "exercitation", "et"],
-      "range": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Joni Nolan"
-        },
-        {
-          "id": 1,
-          "name": "Clemons Russo"
-        },
-        {
-          "id": 2,
-          "name": "Gwen Clark"
-        }
-      ],
-      "greeting": "Hello, Serrano! You have 6 unread messages.",
-      "favoriteFruit": "apple"
-    },
-    {
-      "_id": "5bd01181e1864010846fe2c9",
-      "index": 1,
-      "guid": "2eaa1a90-e5a0-4cea-b9b6-59d0339530b6",
-      "isActive": false,
-      "balance": "$1,799.76",
-      "picture": "http://placehold.it/32x32",
-      "age": 22,
-      "eyeColor": "brown",
-      "name": {
-        "first": "Mcbride",
-        "last": "Mitchell"
-      },
-      "company": "CONCILITY",
-      "email": "mcbride.mitchell@concility.io",
-      "phone": "+1 (921) 543-2258",
-      "address": "928 Juliana Place, Chical, Oregon, 3073",
-      "about": "Nulla commodo veniam duis aliquip aliquip ut do cupidatat reprehenderit nostrud. Laboris enim voluptate eiusmod nostrud id deserunt exercitation est. Duis ut non proident ut est id magna. Esse ad fugiat quis deserunt reprehenderit culpa irure excepteur ea enim in et adipisicing fugiat. Sint consectetur adipisicing Lorem eiusmod aliquip labore laboris ex mollit ut dolore consequat quis qui. Eiusmod ea velit anim adipisicing pariatur ex ullamco anim irure sint tempor.",
-      "registered": "Tuesday, April 21, 2015 11:07 PM",
-      "latitude": "68.619048",
-      "longitude": "164.869353",
-      "tags": ["aute", "ea", "fugiat", "Lorem", "esse"],
-      "range": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Hood Daniels"
-        },
-        {
-          "id": 1,
-          "name": "Deirdre Britt"
-        },
-        {
-          "id": 2,
-          "name": "Velez Reeves"
-        }
-      ],
-      "greeting": "Hello, Mcbride! You have 10 unread messages.",
-      "favoriteFruit": "apple"
-    },
-    {
-      "_id": "5bd011810ceafd8c80673bd5",
-      "index": 2,
-      "guid": "69c4d752-75ba-434a-9d7a-5ee31200c36e",
-      "isActive": false,
-      "balance": "$1,397.70",
-      "picture": "http://placehold.it/32x32",
+      "balance": "$1,372.79",
+      "picture": "http://placehold.it/128x128",
       "age": 35,
-      "eyeColor": "brown",
-      "name": {
-        "first": "Harriett",
-        "last": "Delaney"
-      },
-      "company": "ZINCA",
-      "email": "harriett.delaney@zinca.biz",
-      "phone": "+1 (869) 560-2610",
-      "address": "496 Centre Street, Rivereno, Virginia, 6161",
-      "about": "Consectetur aliquip laboris anim et ullamco veniam nostrud voluptate. Aliquip minim Lorem do proident ex cillum. Irure officia id dolor Lorem deserunt aute sint sit officia sint laboris Lorem anim anim. Est commodo exercitation excepteur est deserunt esse voluptate duis excepteur est elit. Aliquip cillum do qui et ut. Commodo minim exercitation duis nisi qui reprehenderit non labore exercitation Lorem dolore consequat ad. Deserunt sit enim elit eiusmod.",
-      "registered": "Saturday, February 1, 2014 8:00 AM",
-      "latitude": "73.387941",
-      "longitude": "29.880481",
-      "tags": ["nostrud", "adipisicing", "ea", "amet", "culpa"],
-      "range": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Annie Serrano"
-        },
-        {
-          "id": 1,
-          "name": "Jeanine Wilcox"
-        },
-        {
-          "id": 2,
-          "name": "Schultz Clay"
-        }
-      ],
-      "greeting": "Hello, Harriett! You have 9 unread messages.",
-      "favoriteFruit": "apple"
+      "accessLevel": "admin",
+      "firstName": "Hyde",
+      "lastName": "Ayers",
+      "company": "MEDICROIX",
+      "email": "hyde.ayers@medicroix.io",
+      "phone": "+7 (819) 465-3453",
+      "address": "343 Plaza Street, Glendale, North Carolina, 8849",
+      "about": "Eu commodo aute enim incididunt irure. Magna dolore magna id cupidatat ea quis enim consectetur. Tempor dolor deserunt cupidatat amet fugiat pariatur anim dolore eu do commodo reprehenderit nisi.",
+      "registered": "26.07.2015"
     },
     {
-      "_id": "5bd01181773e18f92c8d3747",
-      "index": 3,
-      "guid": "8f3c32ad-3b1e-4314-91fd-efb90f05b6cc",
+      "id": 1,
       "isActive": false,
-      "balance": "$1,546.20",
-      "picture": "http://placehold.it/32x32",
-      "age": 36,
-      "eyeColor": "brown",
-      "name": {
-        "first": "Tessa",
-        "last": "Morales"
-      },
-      "company": "TASMANIA",
-      "email": "tessa.morales@tasmania.ca",
-      "phone": "+1 (928) 480-3976",
-      "address": "644 Maujer Street, Cawood, Nevada, 1711",
-      "about": "Minim consequat ad nisi adipisicing velit consectetur laborum. Eu veniam ullamco cillum mollit ipsum. Nostrud in deserunt ipsum aute aliquip ipsum. Nostrud Lorem elit consequat ut tempor quis do cillum cupidatat ipsum nostrud dolore non. Aliquip incididunt ex sint adipisicing est eiusmod dolore adipisicing proident occaecat. Laborum labore incididunt anim consectetur.",
-      "registered": "Wednesday, July 5, 2017 5:25 PM",
-      "latitude": "-58.503862",
-      "longitude": "43.406605",
-      "tags": ["elit", "nisi", "in", "aute", "esse"],
-      "range": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Lawrence Tran"
-        },
-        {
-          "id": 1,
-          "name": "Annabelle Dominguez"
-        },
-        {
-          "id": 2,
-          "name": "Luz Bullock"
-        }
-      ],
-      "greeting": "Hello, Tessa! You have 5 unread messages.",
-      "favoriteFruit": "banana"
+      "balance": "$1,536.01",
+      "picture": "http://placehold.it/128x128",
+      "age": 21,
+      "accessLevel": "admin",
+      "firstName": "Carey",
+      "lastName": "Avila",
+      "company": "KAGE",
+      "email": "carey.avila@kage.org",
+      "phone": "+7 (812) 513-3496",
+      "address": "195 Johnson Avenue, Canby, Pennsylvania, 2206",
+      "about": "Cupidatat velit excepteur proident id amet. Pariatur adipisicing eiusmod eiusmod pariatur sint laborum elit duis ex incididunt duis consectetur fugiat. Qui non magna aliqua consequat pariatur ipsum. Labore minim adipisicing magna enim mollit est commodo et aliqua proident dolore. Pariatur cillum Lorem enim irure officia ad nostrud commodo amet fugiat velit duis aliquip. Laborum eu cupidatat cupidatat Lorem nisi fugiat esse sint ullamco elit aute dolor culpa aute. Nisi fugiat elit eiusmod et cillum aute consequat labore culpa consectetur aliquip consectetur officia.",
+      "registered": "07.06.2018"
     },
     {
-      "_id": "5bd01181fb4db095ddd04301",
-      "index": 4,
-      "guid": "67145fc2-d63b-4fa5-93bd-b8d8c753be40",
-      "isActive": true,
-      "balance": "$2,698.25",
-      "picture": "http://placehold.it/32x32",
-      "age": 40,
-      "eyeColor": "green",
-      "name": {
-        "first": "Nichols",
-        "last": "Rojas"
-      },
-      "company": "OPPORTECH",
-      "email": "nichols.rojas@opportech.com",
-      "phone": "+1 (905) 416-3567",
-      "address": "973 Pleasant Place, Camino, Montana, 4375",
-      "about": "Dolor occaecat duis do elit. Ad aliqua est proident Lorem enim eu minim consectetur esse. Incididunt aliquip cillum ut cupidatat. Aliquip laboris eu minim id minim ea dolore consequat commodo cillum.",
-      "registered": "Sunday, August 6, 2017 12:38 AM",
-      "latitude": "-88.152359",
-      "longitude": "-83.348681",
-      "tags": ["consequat", "adipisicing", "officia", "velit", "nulla"],
-      "range": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Huff Brown"
-        },
-        {
-          "id": 1,
-          "name": "Jennifer Booth"
-        },
-        {
-          "id": 2,
-          "name": "Casandra Cleveland"
-        }
-      ],
-      "greeting": "Hello, Nichols! You have 9 unread messages.",
-      "favoriteFruit": "apple"
-    },
-    {
-      "_id": "5bd01181b3dea060855b9ce5",
-      "index": 5,
-      "guid": "662c34b5-41dc-4671-a8b9-5d2dfcac281c",
+      "id": 2,
       "isActive": false,
-      "balance": "$3,180.65",
-      "picture": "http://placehold.it/32x32",
-      "age": 24,
-      "eyeColor": "brown",
-      "name": {
-        "first": "Wanda",
-        "last": "Holland"
-      },
-      "company": "EXOTERIC",
-      "email": "wanda.holland@exoteric.name",
-      "phone": "+1 (920) 460-2306",
-      "address": "875 Lawrence Street, Delwood, Minnesota, 6601",
-      "about": "Pariatur ex nulla ea aliquip ea aute non aute eu do tempor est exercitation id. Officia culpa irure dolore irure reprehenderit minim elit occaecat est eiusmod id. Sunt ipsum cupidatat pariatur quis fugiat cillum id ullamco enim. Laboris minim aute minim proident adipisicing sit adipisicing qui ut enim eiusmod minim fugiat minim. Excepteur eiusmod qui dolore consectetur cupidatat aliquip ad. Non excepteur laboris pariatur adipisicing ad enim. Lorem culpa est reprehenderit voluptate minim anim ex magna occaecat laborum fugiat laboris sint magna.",
-      "registered": "Monday, December 22, 2014 4:40 PM",
-      "latitude": "51.132136",
-      "longitude": "-108.744999",
-      "tags": ["commodo", "pariatur", "aliqua", "cupidatat", "tempor"],
-      "range": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Brittney Garner"
-        },
-        {
-          "id": 1,
-          "name": "Johanna Giles"
-        },
-        {
-          "id": 2,
-          "name": "Sherry Vargas"
-        }
-      ],
-      "greeting": "Hello, Wanda! You have 10 unread messages.",
-      "favoriteFruit": "banana"
+      "balance": "$1,715.30",
+      "picture": "http://placehold.it/128x128",
+      "age": 31,
+      "accessLevel": "guest",
+      "firstName": "Forbes",
+      "lastName": "Hicks",
+      "company": "NEOCENT",
+      "email": "forbes.hicks@neocent.biz",
+      "phone": "+7 (923) 511-2859",
+      "address": "639 Carroll Street, Gardiner, Wisconsin, 8707",
+      "about": "Magna ullamco reprehenderit fugiat laboris pariatur quis id. Et enim deserunt sit occaecat dolor eiusmod cillum anim voluptate. Amet excepteur ullamco pariatur occaecat Lorem pariatur in quis tempor veniam. Ut excepteur cillum anim do ea est qui culpa culpa eiusmod officia minim.",
+      "registered": "05.05.2017"
     },
     {
-      "_id": "5bd01181caad5828a90b50c0",
-      "index": 6,
-      "guid": "e32909b8-91d5-4c2f-ab42-14e13e7bdcdf",
+      "id": 3,
       "isActive": true,
-      "balance": "$3,497.12",
-      "picture": "http://placehold.it/32x32",
-      "age": 26,
-      "eyeColor": "blue",
-      "name": {
-        "first": "Olga",
-        "last": "Mclaughlin"
-      },
-      "company": "MIRACLIS",
-      "email": "olga.mclaughlin@miraclis.biz",
-      "phone": "+1 (808) 585-2637",
-      "address": "913 Hale Avenue, Delshire, Florida, 769",
-      "about": "Id incididunt tempor mollit id veniam. Nostrud voluptate ea amet consequat. Eiusmod esse quis culpa qui enim eu. Eu aliqua est irure elit consectetur ad sit velit. Aliquip cillum laboris proident nulla proident duis laboris excepteur. Cupidatat laboris incididunt cupidatat culpa quis.",
-      "registered": "Friday, August 5, 2016 11:41 AM",
-      "latitude": "34.458469",
-      "longitude": "-144.779892",
-      "tags": ["culpa", "nulla", "adipisicing", "id", "sint"],
-      "range": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Erin Huff"
-        },
-        {
-          "id": 1,
-          "name": "Fern Bowen"
-        },
-        {
-          "id": 2,
-          "name": "Anthony Mathews"
-        }
-      ],
-      "greeting": "Hello, Olga! You have 8 unread messages.",
-      "favoriteFruit": "apple"
+      "balance": "$3,637.13",
+      "picture": "http://placehold.it/128x128",
+      "age": 32,
+      "accessLevel": "guest",
+      "firstName": "Dunlap",
+      "lastName": "Hickman",
+      "company": "LIMAGE",
+      "email": "dunlap.hickman@limage.tv",
+      "phone": "+7 (851) 558-3378",
+      "address": "762 Nichols Avenue, Nicholson, Rhode Island, 7709",
+      "about": "Irure excepteur ea nisi Lorem labore anim eu do est laborum. Do sunt ullamco velit incididunt do ullamco ea aute velit reprehenderit. Magna qui incididunt adipisicing ut. Commodo amet do incididunt nulla reprehenderit elit reprehenderit proident irure nisi ipsum. Nostrud irure amet irure est non excepteur tempor in ad aute eiusmod ea do. Deserunt pariatur enim cillum excepteur dolor magna voluptate pariatur voluptate elit. Quis mollit occaecat magna id consectetur proident aliquip aute ipsum.",
+      "registered": "22.07.2016"
     },
     {
-      "_id": "5bd01181732aecc8ddc5ab71",
-      "index": 7,
-      "guid": "6adecc59-49ad-423d-add3-75e51fd76e9c",
+      "id": 4,
       "isActive": true,
-      "balance": "$3,606.11",
-      "picture": "http://placehold.it/32x32",
-      "age": 22,
-      "eyeColor": "green",
-      "name": {
-        "first": "Jaime",
-        "last": "Hull"
-      },
+      "balance": "$2,854.73",
+      "picture": "http://placehold.it/128x128",
+      "age": 28,
+      "accessLevel": "guest",
+      "firstName": "Gaines",
+      "lastName": "Richardson",
+      "company": "SINGAVERA",
+      "email": "gaines.richardson@singavera.biz",
+      "phone": "+7 (956) 537-3898",
+      "address": "290 Montrose Avenue, Fedora, Montana, 2626",
+      "about": "Incididunt id reprehenderit sunt officia do voluptate magna esse officia deserunt. Velit cupidatat minim ad commodo eu mollit laborum elit esse consequat. Ex nulla pariatur commodo irure sint irure. Est amet do anim est consectetur officia dolor fugiat tempor pariatur in anim duis excepteur. Fugiat ut mollit occaecat et voluptate aute est proident excepteur officia eu enim.",
+      "registered": "29.08.2018"
+    },
+    {
+      "id": 5,
+      "isActive": true,
+      "balance": "$2,967.18",
+      "picture": "http://placehold.it/128x128",
+      "age": 34,
+      "accessLevel": "user",
+      "firstName": "Beverley",
+      "lastName": "Fernandez",
+      "company": "ENERSAVE",
+      "email": "beverley.fernandez@enersave.me",
+      "phone": "+7 (851) 565-2805",
+      "address": "673 Micieli Place, Takilma, Maryland, 8182",
+      "about": "Est eiusmod id et veniam nulla enim ullamco do. Reprehenderit consectetur occaecat velit velit adipisicing incididunt id minim adipisicing veniam adipisicing est. Nisi duis do sit proident sunt labore do do proident officia tempor officia esse. Do dolore laboris exercitation velit officia qui ipsum elit tempor velit duis nulla reprehenderit incididunt. Non anim quis proident in. Esse voluptate culpa aute voluptate voluptate irure consectetur officia minim ullamco.",
+      "registered": "23.10.2017"
+    },
+    {
+      "id": 6,
+      "isActive": false,
+      "balance": "$1,337.70",
+      "picture": "http://placehold.it/128x128",
+      "age": 38,
+      "accessLevel": "guest",
+      "firstName": "Irma",
+      "lastName": "Abbott",
+      "company": "LOTRON",
+      "email": "irma.abbott@lotron.name",
+      "phone": "+7 (801) 504-3414",
+      "address": "993 Nelson Street, Welch, Arizona, 7772",
+      "about": "Aute aliqua Lorem occaecat mollit dolor cillum fugiat cupidatat. Consectetur velit incididunt eiusmod sunt velit nisi incididunt id exercitation reprehenderit ullamco ad incididunt. Dolor culpa culpa et ullamco qui incididunt non aute id id cupidatat aliquip dolor. Ex cillum ad ullamco ea nisi eu. Reprehenderit voluptate fugiat cillum voluptate qui aute nisi voluptate non. Ullamco officia magna irure sit in cillum. Ad proident eiusmod exercitation veniam aute ex et duis veniam est aliqua adipisicing.",
+      "registered": "02.07.2014"
+    },
+    {
+      "id": 7,
+      "isActive": true,
+      "balance": "$2,583.47",
+      "picture": "http://placehold.it/128x128",
+      "age": 30,
+      "accessLevel": "user",
+      "firstName": "Little",
+      "lastName": "English",
+      "company": "SYBIXTEX",
+      "email": "little.english@sybixtex.info",
+      "phone": "+7 (851) 481-2332",
+      "address": "725 Story Street, Newcastle, New Mexico, 695",
+      "about": "Commodo eiusmod amet cillum sint. Officia exercitation ad mollit commodo cupidatat in. Mollit dolore nulla sunt magna sunt.",
+      "registered": "03.04.2014"
+    },
+    {
+      "id": 8,
+      "isActive": false,
+      "balance": "$3,225.49",
+      "picture": "http://placehold.it/128x128",
+      "age": 35,
+      "accessLevel": "user",
+      "firstName": "Kay",
+      "lastName": "Gutierrez",
+      "company": "HANDSHAKE",
+      "email": "kay.gutierrez@handshake.ca",
+      "phone": "+7 (869) 492-2755",
+      "address": "828 Lincoln Terrace, Bonanza, Oregon, 9847",
+      "about": "Nisi Lorem laborum enim velit occaecat aute eiusmod ea aliquip. Esse commodo consequat excepteur occaecat labore eu aliqua laboris exercitation pariatur duis est. Est ipsum sunt cupidatat mollit deserunt ea amet Lorem ea amet. Ipsum consequat qui nulla id ad ut duis anim sint occaecat elit nisi nisi. Quis quis labore aute ad eu pariatur fugiat ea. Ex aliquip nostrud tempor consectetur veniam laboris qui adipisicing.",
+      "registered": "09.07.2015"
+    },
+    {
+      "id": 9,
+      "isActive": true,
+      "balance": "$2,614.00",
+      "picture": "http://placehold.it/128x128",
+      "age": 25,
+      "accessLevel": "admin",
+      "firstName": "Glenda",
+      "lastName": "Salas",
+      "company": "FLUM",
+      "email": "glenda.salas@flum.com",
+      "phone": "+7 (862) 418-2585",
+      "address": "234 Knapp Street, Accoville, Virginia, 5524",
+      "about": "Proident minim nulla ea occaecat consequat sunt. Minim in est aliquip proident. Sit dolor sint culpa anim do adipisicing Lorem tempor ea. Exercitation aute consequat officia cillum mollit eu nulla id irure id deserunt non sint cillum. Do aliquip ipsum sunt esse tempor irure officia irure eiusmod nisi commodo non.",
+      "registered": "21.10.2014"
+    },
+    {
+      "id": 10,
+      "isActive": false,
+      "balance": "$2,451.59",
+      "picture": "http://placehold.it/128x128",
+      "age": 21,
+      "accessLevel": "guest",
+      "firstName": "Rosetta",
+      "lastName": "Gonzales",
       "company": "RAMJOB",
-      "email": "jaime.hull@ramjob.net",
-      "phone": "+1 (923) 543-3661",
-      "address": "674 Wythe Avenue, Kraemer, Connecticut, 8110",
-      "about": "Qui anim quis elit dolor duis adipisicing minim Lorem tempor nulla nostrud. Laborum qui Lorem esse nulla. Nostrud id ex excepteur minim laboris dolore est eu qui laboris amet consequat reprehenderit. Eu eu aliquip ea consequat officia incididunt enim laborum Lorem anim. Pariatur fugiat proident reprehenderit esse culpa amet. Fugiat tempor ipsum ad sunt officia amet nostrud pariatur elit. Fugiat incididunt do laborum duis quis pariatur aliqua.",
-      "registered": "Sunday, November 15, 2015 11:05 AM",
-      "latitude": "-79.707854",
-      "longitude": "62.210898",
-      "tags": ["enim", "voluptate", "incididunt", "consectetur", "esse"],
-      "range": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Stein Eaton"
-        },
-        {
-          "id": 1,
-          "name": "Lindsey Hebert"
-        },
-        {
-          "id": 2,
-          "name": "Underwood Kline"
-        }
-      ],
-      "greeting": "Hello, Jaime! You have 5 unread messages.",
-      "favoriteFruit": "strawberry"
+      "email": "rosetta.gonzales@ramjob.co.uk",
+      "phone": "+7 (857) 503-2490",
+      "address": "435 Virginia Place, Caln, Idaho, 9027",
+      "about": "Incididunt magna consectetur dolor Lorem deserunt aliquip in irure anim aliqua veniam. Lorem proident deserunt est non cillum tempor. Ullamco aute enim ad velit enim consequat excepteur cillum Lorem. Non nostrud nisi Lorem velit aliqua irure enim voluptate labore. Non ut velit ea do amet sit dolor reprehenderit exercitation veniam aute anim. Eiusmod mollit qui non pariatur ut reprehenderit eiusmod. Amet nostrud amet incididunt occaecat duis reprehenderit excepteur.",
+      "registered": "02.05.2014"
     }
   ]
 }
