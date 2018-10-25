@@ -7,6 +7,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Vue: 02</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.css" />
+  <style>
+    .user-list-item__img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  </style>
 </head>
 
 <body>
@@ -19,6 +26,7 @@
         <div class="field"><label>Last Name: <input v-model.trim="userData.lastName" /></label></div>
         <div class="field"><label>Company: <input v-model.trim="userData.company" /></label></div>
         <div class="field"><label>Email: <input v-model.trim="userData.email" type="email" /></label></div>
+        <div class="field"><label>Picture: <input v-model.trim="userData.picture" /></label></div>
         <div class="field">
           <button type="button" v-on:click="closeForm" class="ui basic button">Reset</button>
           <button type="submit" class="ui basic button primary">Save</button>
@@ -44,7 +52,7 @@
         <tbody>
           <tr v-for="user in users">
             <td>{{user.id}}</td>
-            <td><img v-bind:src="user.picture" /></td>
+            <td><img v-bind:src="userImg(user)" class="user-list-item__img" /></td>
             <td>{{user.firstName}}</td>
             <td>{{user.lastName}}</td>
             <td>{{user.accessLevel}}</td>
@@ -62,8 +70,8 @@
     </div>
   </template>
   <div id="root">
-    <users-list v-if="showUsersList" v-bind:users="users" />
-    <user-form v-else-if="showUserForm" v-bind:user="user" v-on:save-user="updateUser" v-on:close-form="closeForm" />
+    <users-list v-if="showUsersList" v-bind:users="users"></users-list>
+    <user-form v-else-if="showUserForm" v-bind:user="user" v-on:save-user="updateUser" v-on:close-form="closeForm"></user-form>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
