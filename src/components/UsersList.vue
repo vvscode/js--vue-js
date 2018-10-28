@@ -12,16 +12,14 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="user in users">
+          <tr v-for="user in users" v-bind:key="user.id">
             <td>{{user.id}}</td>
             <td><img v-bind:src="userImg(user)" class="user-list-item__img" /></td>
             <td>{{user.firstName}}</td>
             <td>{{user.lastName}}</td>
             <td>{{user.accessLevel}}</td>
             <td>
-              <a class="ui button" v-bind:href="userLink(user)">
-                <i class="icon edit"></i>
-                Edit</a>
+              <router-link :to="{ name: 'editUser', params: { id: user.id }}" class="ui button">  <i class="icon edit"></i>Edit</router-link>
               <button type="button" class="ui button" v-on:click="removeUser(user)">
                 <i class="icon remove"></i>
                 Delete</button>
@@ -49,7 +47,7 @@ export default {
   },
    methods: {
     userLink(user) {
-      return '#user=' + user.id;
+      return '#users/' + user.id;
     },
     userImg(user) {
       return user.picture || defaultAvatarUrl;
