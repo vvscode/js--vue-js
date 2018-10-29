@@ -12,7 +12,6 @@
           <button type="button" v-on:click="closeForm" class="ui basic button">Reset</button>
           <button type="submit" class="ui basic button primary">Save</button>
         </div>
-    </div>
     </form>
     </div>
 </template>
