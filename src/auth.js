@@ -1,8 +1,9 @@
 const KEY = "AUTH_KEY";
 
-const getUid = Array.from({ length: 30 })
-  .map(_ => String.fromCharCode(Math.floor(Math.random() * 26) + 26))
-  .join("");
+const getUid = _ =>
+  Array.from({ length: 30 })
+    .map(_ => String.fromCharCode(Math.floor(Math.random() * 26) + 26))
+    .join("");
 
 export default {
   login() {
@@ -13,5 +14,8 @@ export default {
   },
   isLoggedIn() {
     return !!localStorage.getItem(KEY);
+  },
+  getKey() {
+    return localStorage.getItem(KEY) || null;
   }
 };
