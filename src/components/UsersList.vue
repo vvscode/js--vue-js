@@ -34,9 +34,10 @@
 </template>
 
 <script>
+import  axiosClient from '@/axiosClient';
+
 const defaultAvatarUrl =
   'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png';
-
 export default {
   name: 'UsersList',
    props: {
@@ -53,7 +54,10 @@ export default {
       return user.picture || defaultAvatarUrl;
     },
     removeUser(user) {
-      alert('Remove');
+      axiosClient
+        .delete(`/users/${user.id}`)
+        .then(() => (this.users = this.users.filter(el => el.id !== user.id)))
+        .catch(console.error);
     }
   },
 };
